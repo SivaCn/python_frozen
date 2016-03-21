@@ -5,7 +5,7 @@ from setuptools import setup
 
 setup(
 	name='frozen',
-	description='Get a frozen reference to an object.',
+	description='Get a python_frozen reference to an object.',
 	long_description='',
 	url='https://github.com/mverleg/python_frozen',
 	author='Mark V',
@@ -15,7 +15,7 @@ setup(
 	keywords=[],
 	version='1.0',
 	packages=[
-		'frozen',
+		'python_frozen',
 	],
 	include_package_data=True,
 	zip_safe=False,
