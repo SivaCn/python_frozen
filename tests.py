@@ -5,7 +5,7 @@ py.test
 
 from copy import copy
 from pytest import raises
-from frozen import frozen, ImmutableError
+from frozenobj import frozen, ImmutableError
 import sys
 
 
@@ -25,7 +25,7 @@ def test_simple_immutables_immutable():
 			p += val
 		except ImmutableError:
 			""" It may or may not raise an error (it probably doesn't); all that matters is that q is unchanged. """
-		assert q == val, 'type "" changed after becoming frozen'.format(type(q))
+		assert q == val, 'type "" changed after becoming frozenobj'.format(type(q))
 		del p
 
 

@@ -7,7 +7,7 @@ Frozen creates an immutable reference to an object. This works (lazily) recursiv
 Installation
 ---------------------------------
 
-1. `pip install frozen`
+1. `pip install frozenobj`
 2. profit
 
 Usage
@@ -15,7 +15,7 @@ Usage
 
 Usage is very simple::
 
-	from frozen import frozen
+	from frozenobj import frozen
 	immutable_obj = frozen(mutable_obj)
 
 

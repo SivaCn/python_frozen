@@ -8,7 +8,7 @@ with open('README.rst', 'r') as fh:
 
 
 setup(
-	name='frozen',
+	name='frozenobj',
 	description='Get a python_frozen reference to an object.',
 	long_description=text,
 	url='https://github.com/mverleg/python_frozen',
@@ -19,7 +19,7 @@ setup(
 	keywords=[],
 	version='1.0',
 	packages=[
-		'frozen',
+		'frozenobj',
 	],
 	include_package_data=True,
 	zip_safe=False,
