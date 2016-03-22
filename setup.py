@@ -3,10 +3,14 @@
 from setuptools import setup
 
 
+with open('README.rst', 'r') as fh:
+	text = fh.read()
+
+
 setup(
 	name='frozen',
 	description='Get a python_frozen reference to an object.',
-	long_description='',
+	long_description=text,
 	url='https://github.com/mverleg/python_frozen',
 	author='Mark V',
 	maintainer='(the author)',
@@ -15,11 +19,11 @@ setup(
 	keywords=[],
 	version='1.0',
 	packages=[
-		'python_frozen',
+		'frozen',
 	],
 	include_package_data=True,
 	zip_safe=False,
-	requires=[
+	install_requires=[
 		'lazy-object-proxy',
 	],
 	classifiers=[

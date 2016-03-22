@@ -2,7 +2,7 @@
 Frozen
 ---------------------------------
 
-Frozen can create an immutable reference to an object. This works (lazily) recursive: mutable members are also frozen upon access. It keeps the original object mutable, returning a proxy class that behaves just like the object except being uneditable. If the underlying object changes, the proxy will reflect this automatically. As such it is immutable in the sense that the reference can't be used to change it, not in the sense that it cannot be changed at all (you could of course discard the original mutable reference). Frozen objects can not be used as dictionary keys.
+Frozen creates an immutable reference to an object. This works (lazily) recursive: mutable members are also frozen upon access. It keeps the original object mutable, returning a proxy class that behaves just like the object except being uneditable. If the underlying object changes, the proxy will reflect this automatically. As such it is immutable in the sense that the reference can't be used to change it, not in the sense that it cannot be changed at all (you could of course discard the original mutable reference). Frozen objects can not be used as dictionary keys.
 
 Installation
 ---------------------------------
